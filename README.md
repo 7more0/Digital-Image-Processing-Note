@@ -16,3 +16,11 @@ Contains python implementation of some image processing methods.
 >- histogram specification
 >- local histogram equalization
 >- image segmentation based on gray-scale threshold
+
+>CH3.1
+>- Gaussian filtering
+>- median filtering
+>- unsharp masking
+>- Laplace operator
+>- sobel operator
+>- canny algorithm
