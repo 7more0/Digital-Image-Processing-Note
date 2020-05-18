@@ -24,3 +24,10 @@ Contains python implementation of some image processing methods.
 >- Laplace operator
 >- sobel operator
 >- canny algorithm
+
+>CH4
+>- apply low-pass/high-pass gaussian/butterworth filter in frequency domain
+>- calculate power spectrum
+>- apply laplace arithmetic/un-sharp masking in frequency domain
+>- convert spacial mask to frequency mask
+>- convert frequency mask to spacial mask
