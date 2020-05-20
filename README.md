@@ -31,3 +31,11 @@ Contains python implementation of some image processing methods.
 >- apply laplace arithmetic/un-sharp masking in frequency domain
 >- convert spacial mask to frequency mask
 >- convert frequency mask to spacial mask
+
+>CH5
+>- add gaussian/salt_pepper noise to image
+>- apply motion degrade to image
+>- geometric mean filtering, arithmetic mean filtering, (inverse) harmonic mean filtering
+>- maximum/minimum/median value filtering, median point filtering
+>- adaptive local noise reduction filtering, adaptive median filtering
+>- wiener filtering, constrained least squares filtering
