@@ -152,7 +152,7 @@ def laplce(img):
     new_img_dft[:, :, 1] = img_dft[:, :, 1] * H
     laplace_img = idft(new_img_dft, normalize=False)[:w, :h]
     laplace_img /= (np.max(laplace_img)-np.min(laplace_img))
-    g_img = img[:, :, 0] - laplace_img*1024
+    g_img = img[:, :, 0] - laplace_img*255
     for idx in range(w):
             for idy in range(h):
                 if g_img[idx, idy] < 0:
